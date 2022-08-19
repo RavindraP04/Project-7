@@ -7,6 +7,7 @@
 }
 body{
     /* overflow-x: hidden;  */
+    height: 100vh;
 }
 nav img{
     margin: 70px 75px;
