@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    /* overflow-x: hidden;  */
+}
+nav img{
+    margin: 70px 75px;
+    height: 36px;
+}
+.nav-items{
+    text-align: center;
+    margin-top: -110px;
+}
+.nav-items h5{
+    display: inline-block;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 18px;
+    margin-right: 65px;
+}
+.nav-items h5:first-child{
+    color: #FE5E35;
+    font-weight: 700;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+.actions{
+    float: right;
+    margin-top: -35px;
+    height: 38px;
+    margin-right: 5px;
+}
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin-top: 110px;
+    justify-content: space-between;
+}
+.left-section{
+    margin-left: 70px;
+}
+.left-section h3{
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: -25px;
+    /* margin-left: 70px; */
+}
+.left-section h3 img{
+    height: 40px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.left-section h1{
+    font-family: "Fredoka One";
+    font-size: 66px;
+    margin-top: 10px;
+    /* margin-left: 70px; */
+    padding-bottom: 40px;
+}
+.sub-headline img{
+    background-color: #FD592F;
+    border-radius: 50%;
+    margin-right: 15px;
+    height: 16px;
+    padding: 6px 6px;
+    position: relative;
+    top: 5px;
+}
+.sub-headline{
+    margin-left: 155px;
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 13px;
+}
+.text{
+    margin-top: 20px;
+    max-width: 642px;
+    font-family: "Poppins";
+    font-weight: 300;
+    color: #CFCFCF;
+    font-size: 13px;
+}
+.action-btns{
+    margin-top: 50px;
+}
+.action-btns button{
+    margin-right: 30px;
+}
+.action-btns button:hover{
+    background: transparent;
+    color: #FD592F;
+    border: 2px solid #FD592F;
+    transition: 200ms ease-in-out ;
+}
+.action-btn{
+    border: 2px solid #FD592F;
+    background-color: #FE5E35;
+    color: #fff;
+    padding: 12px 25px;
+    font-family: "Poppins";
+    border-radius: 45px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.action-btn:hover{
+    background: transparent;
+    color: #FD592F;
+    border: 2px solid #FD592F;
+    transition: 200ms ease-in-out ;
+}
+.headphone{
+    height: 395px;
+    z-index: -1;
+}
+.sale-banner{
+    margin-top: -105px;
+    text-align: center;
+    color: #fff;
+}
+.discount-content{
+    font-family: "Fredoka One";
+    position: absolute;
+    top: 425px;
+    right: 410px;
+}
+.discount-content h4{
+    font-size: 11px;
+    font-family: "Poppins";
+    margin-bottom: -5px;
+}
+.discount-content h1{
+    font-size: 45px;
+}
+.discount{
+    height: 130px;
+}
+.right-section{
+    margin-right: 100px;
+}
+.dots{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.color{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.color div{
+    margin-right: 30px;
+}
+.yellow-dot{
+    background-color: #fbd104;
+    color: #fbd104;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.tomato-dot{
+    background-color: #FE5E35;
+    color: #FD592F;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+}
+.black-dot{
+    background-color: #000;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: #000;
+}
+.menu_icon i{
+    display: none;
+}
+
+@media screen and (max-width: 1236px) {
+    .left-section h3{
+        font-size: 32px;
+    }
+    .left-section h1{
+        font-size: 60px;
+    }
+    .text{
+        max-width: 560px;
+    }
+    .headphone{
+        height: 380px;
+    }
+    .discount{
+        height: 120px;
+    }
+    .discount-content h4{
+        font-size: 10px;
+    }
+    .discount-content h1{
+        font-size: 40px;
+    }
+    .sale-banner{
+        position: relative;
+        top: 10px;
+    }
+}
+@media screen and (max-width: 1160px){
+    .left-section h3{
+        font-size: 30px;
+    }
+    .left-section h3 img{
+        height: 35px;
+    }
+    .left-section h1{
+        font-size: 52px;
+    }
+    .text{
+        max-width: 500px;
+    }
+    .headphone{
+        height: 350px;
+    }
+    .discount{
+        height: 100px;
+    }
+    .discount-content{
+        position: absolute;
+        top: 410px;
+        right: 380px;
+    }
+    .discount-content h4{
+        font-size: 10px;
+    }
+    .discount-content h1{
+        font-size: 32px;
+    }
+    .sale-banner{
+        position: relative;
+        top: 22px;
+    }
+    .color{
+        margin-top: 40px;
+    }
+    .sub-headline{
+        font-size: 18px;
+    }
+    .sub-headline img{
+        height: 12px;
+        position: relative;
+        top: 5px;
+    }
+}
+@media screen and (max-width: 1048px){
+    .left-section h3{
+        font-size: 25px;
+    }
+    .left-section h3 img{
+        height: 30px;
+    }
+    .left-section h1{
+        font-size: 45px;
+    }
+    .text{
+        max-width: 420px;
+    }
+    .headphone{
+        height: 315px;
+    }
+    .discount{
+        height: 100px;
+    }
+    .discount-content{
+        position: absolute;
+        top: 380px;
+        right: 350px;
+    }
+    .discount-content h4{
+        font-size: 10px;
+    }
+    .discount-content h1{
+        font-size: 32px;
+    }
+    .sale-banner{
+        position: relative;
+        top: 22px;
+    }
+    .color{
+        margin-top: 40px;
+    }
+    .sub-headline{
+        font-size: 16px;
+    }
+    .sub-headline img{
+        height: 10px;
+        position: relative;
+        top: 5px;
+    }
+}
+@media screen and (max-width: 942px){
+    .nav-items h5{
+        display: none;
+    }
+    .actions{
+        display: none;
+    }
+    .menu_icon i{
+        display: block;
+        /* margin-left: 860px; */
+        font-size: 22px;
+        float: right;
+        margin-right: 90px;
+    }
+    .sub-headlines{
+        margin-left: -50px;
+    }
+    .action-btn{
+        font-size: 12px;
+    }
+    .headphone{
+        height: 290px;
+    }
+
+    .discount{
+        height: 90px;
+    }
+    .discount-content{
+        position: absolute;
+        top: 360px;
+        right: 290px;
+    }
+    .discount-content h4{
+        font-size: 8px;
+    }
+    .discount-content h1{
+        font-size: 30px;
+    }
+    .sale-banner{
+        position: relative;
+        top: 32px;
+    }
+    .yellow-dot{
+        width: 20px;
+        height: 20px;
+    }
+    .tomato-dot{
+        height: 20px;
+        width: 20px;
+    }
+    .black-dot{
+        width: 20px;
+        height: 20px;
+    }
+    .right-section{
+        margin-right: 60px;
+    }
+    .color{
+        margin-top: 65px;
+    }
+}
+@media screen and (max-width: 878px){
+    .color{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .headphone{
+        height: 360px;    
+    }
+    .intro-section{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        justify-content: center;
+    }
+    .left-section{
+        margin-left: 2px;
+        padding-top:50px;
+    }
+    .left-section h3{
+        text-align: center;
+    }
+    .action-btns{
+        margin-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .right-section{
+        margin-left: 30px;
+        position: relative;
+    }
+    .discount-content{
+        margin-left: -20px;
+        display: block;
+        position: absolute;
+        top: 210px;
+    }
+}
+@media screen and (max-width: 466px){
+    .left-section h1{
+        font-size: 35px;
+    }   
+    .text{
+        max-width: 350px;
+    }
+    nav img{
+        margin: 50px 40px;
+        height: 32px;
+    }
+    .menu_icon i{
+        margin-right: 50px;
+        margin-top: 28px;
+    }
+    .headphone{
+        height: 250px;
+    }
+    .discount-content{
+        display: block;
+        position: absolute;
+        top: 150px;
+        left: -15px;
+    }
+    .sale-banner{
+        position: relative;
+        top: 48px;
+        left: 15px;
+    }
+    .discount{
+        height: 70px;
+    }
+    .discount-content h4{
+        font-style: 6px;
+    }
+    .discount-content h1{
+        font-size: 21px;
+    }
+}
+@media screen and (max-width: 360px){
+    .left-section h1{
+        font-size: 30px;
+    }   
+    .text{
+        max-width: 300px;
+        font-size: 11px;
+    }
+    nav img{
+        margin: 50px 30px;
+        height: 30px;
+    }
+    .menu_icon i{
+        margin-right: 50px;
+        margin-top: 28px;
+    }
+    .headphone{
+        height: 250px;
+    }
+    .sub-headlines{
+        margin-left: -100px;
+    }
+    .left-section h3{
+        font-size: 20px;
+    }
+    .left-section h3 img{
+        height: 25px;
+    }
+    .right-section{
+        margin-left: 50px;
+    }
+   
+}
